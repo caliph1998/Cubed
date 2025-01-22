@@ -1,4 +1,4 @@
-project "CubedApp"
+project "Cubed-Client"
    kind "ConsoleApp"
    language "C++"
    cppdialect "C++20"
@@ -9,7 +9,7 @@ project "CubedApp"
 
    includedirs
    {
-      "../Cubed-Common/src"
+      "../Cubed-Common/src",
       "../Walnut/vendor/imgui",
       "../Walnut/vendor/glfw/include",
       
